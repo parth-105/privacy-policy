@@ -37,12 +37,7 @@ export default async function PrivacyPolicyPage({ params }: PageProps) {
       <div className="container mx-auto px-4 py-8 max-w-4xl">
         {/* Header */}
         <div className="mb-8">
-          <Link
-            href="/"
-            className="inline-flex items-center text-sm text-gray-600 dark:text-gray-400 hover:text-gray-900 dark:hover:text-gray-100 mb-4 transition-colors"
-          >
-            ← Back to Apps
-          </Link>
+      
           <h1 className="text-4xl font-bold text-gray-900 dark:text-white mb-2">
             {app.name}
           </h1>
