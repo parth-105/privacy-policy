@@ -111,6 +111,43 @@ We encourage you to review the privacy policies of any third-party services used
         content: `We may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the "Last Updated" date. You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.`
       },
     ]
+  },
+  {
+    id: "hastrekha",
+    name: "Hastrekha: AI Palm & Jyotish",
+    slug: "hastrekha",
+    description: "Vedic Astrology, Palm Reading, and Kundli App",
+    lastUpdated: "2026-06-21",
+    sections: [
+      {
+        title: "Introduction",
+        content: "Welcome to Hastrekha: AI Palm & Jyotish. We are committed to protecting your privacy while providing you with Vedic astrology and palmistry insights. This Privacy Policy explains how we collect, use, and safeguard your information."
+      },
+      {
+        title: "Information We Collect",
+        content: "We collect minimal information required to provide our astrological services:\n\n**Information You Provide:**\n- **Account Information:** We use Firebase Authentication (Google Sign-In, Email) to securely manage your account.\n- **Birth Details:** We securely collect your date, time, and place of birth to generate accurate Kundli (birth charts) and horoscopes.\n- **Palm Images:** When you use the Palm Scan feature, the image is temporarily processed by our AI (Groq API) to provide readings. We do not store these images permanently on our servers.\n\n**Automatically Collected Information:**\n- **Usage Data & Crashlytics:** We use Firebase Analytics and Crashlytics to understand app usage and fix bugs to improve your experience."
+      },
+      {
+        title: "How We Use Your Information",
+        content: "We use the collected information exclusively to:\n- Generate personalized Vedic astrological insights and daily horoscopes.\n- Process your palm scans for AI-driven palmistry readings.\n- Sync your premium status and purchases across your devices using RevenueCat.\n- Improve the app's performance and fix technical issues."
+      },
+      {
+        title: "Data Storage and Security",
+        content: "We prioritize your data security:\n- Your birth details and chat history are stored locally on your device using Hive database and securely synced to Firebase Firestore if authenticated.\n- We do not sell, rent, or share your personal astrological data with third-party advertisers.\n- All data transmission is encrypted using industry-standard protocols."
+      },
+      {
+        title: "Account Deletion",
+        content: "You have full control over your data. You can delete your account and all associated personal data permanently at any time directly from the app's Settings menu."
+      },
+      {
+        title: "Third-Party Services",
+        content: "We utilize trusted third-party services that may collect information to provide their functionality:\n- **Firebase** (Authentication, Firestore, Analytics, Crashlytics)\n- **RevenueCat** (Subscription and Purchase Management)\n- **Groq API** (AI processing for chat and palm reading)\n\nPlease refer to their respective privacy policies for more details."
+      },
+      {
+        title: "Changes to This Privacy Policy",
+        content: "We may update our Privacy Policy periodically. We will notify you of any changes by updating the \"Last Updated\" date on this page."
+      }
+    ]
   }
 ];
 
